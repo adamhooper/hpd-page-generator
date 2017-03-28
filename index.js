@@ -1,1 +1,1 @@
-module.exports = require('./lib/PageCompiler')
+module.exports = require('./lib/PageGenerator')

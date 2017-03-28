@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huffpostdata/hpd-page-compiler.git"
+    "url": "git+https://github.com/huffpostdata/hpd-page-generator.git"
   },
   "keywords": [
     "static",
@@ -21,9 +21,9 @@
   "author": "Adam Hooper <adam.hooper@huffingtonpost.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/huffpostdata/hpd-page-compiler/issues"
+    "url": "https://github.com/huffpostdata/hpd-page-generator/issues"
   },
-  "homepage": "https://github.com/huffpostdata/hpd-page-compiler#readme",
+  "homepage": "https://github.com/huffpostdata/hpd-page-generator#readme",
   "dependencies": {
     "in-memory-website": "0.0.5",
     "marko": "^4.1.3"
