@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>All My Friends</title></head>
+  <body>
+    <!-- This will link to '/2017/my-project/my-hero'.
+         You can use routes.urlTo() to add the baseUrl, but you usually won't want that. -->
+    <p>Go see my <a href="${routes.hrefTo('my-hero')}">hero</a></p>
+
+    <!-- routes.hrefTo() takes one parameter per path variable. -->
+    <p>Here are my friends:</p>
+    <ul>
+      <!-- `model` here is an Array -->
+      <li for(friend in model)>
+        <a href="${routes.hrefTo('friends/:permalink', friend.permalink)}">${friend.name}</a>
+      </li>
+    </ul>
+  </body>
+</html>
